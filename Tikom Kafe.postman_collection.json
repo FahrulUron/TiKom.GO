@@ -625,7 +625,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\" : \"Okyra Asyrafi Guchan\",\r\n    \"email\": \"Okyra19chan@gmail.com\",\r\n    \"password\" : \"123456789\"\r\n}",
+					"raw": "{\r\n    \"name\" : \"Fahrul Uron\",\r\n    \"email\": \"fahruluron@gmail.com\",\r\n    \"password\" : \"12345678\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -654,7 +654,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\" : \"Okyra Asyrafi Guchan\",\r\n    \"email\": \"Okyra19chan@gmail.com\",\r\n    \"password\" : \"123456789\"\r\n}",
+					"raw": "{\r\n    \"name\" : \"Fahrul Uron\",\r\n    \"email\": \"fahruluron@gmail.com\",\r\n    \"password\" : \"12345678\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -683,7 +683,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"okyra19chan@gmail.com\"\r\n}",
+					"raw": "{\r\n    \"email\": \"fahruluron@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
