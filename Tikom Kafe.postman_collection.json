@@ -1,0 +1,709 @@
+{
+	"info": {
+		"_postman_id": "024fb43a-a4f5-4a2c-8989-0d2cf627a723",
+		"name": "Tikom Kafe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10284842",
+		"_collection_link": "https://warped-crater-486591.postman.co/workspace/Team-Workspace~fcd270d0-0b1f-4305-809f-061900d4d5c5/collection/10284842-024fb43a-a4f5-4a2c-8989-0d2cf627a723?action=share&source=collection_link&creator=10284842"
+	},
+	"item": [
+		{
+			"name": "add-menu",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "15000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/menu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"menu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-menu",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "15000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/menu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"menu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-menu-by-id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "15000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/menu/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"menu",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-menu",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "150000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/menu/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"menu",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-menu",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "150000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/menu/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"menu",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "jenis-menu-by-id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "harga",
+							"value": "15000",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/jenis-menu/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"jenis-menu",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add-order-menu",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "meja_no",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "nama_pembeli",
+							"value": "Prima Nanda",
+							"type": "text"
+						},
+						{
+							"key": "no_hp",
+							"value": "085268937856",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/order-menu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"order-menu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-order-menu",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "15000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/order-menu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"order-menu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-order-menu",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "150000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/order-menu/13",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"order-menu",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add-order-menu-detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "order_menu_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "menu_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "jumlah",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "15000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/order-menu-detail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"order-menu-detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-order_menu-detail-by-id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "15000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/order-menu-detail/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"order-menu-detail",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-order-menu-detail",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "150000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/menu/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"menu",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pesan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"order_menu_id\": \"2\",\r\n    \"order_menu_detail\": [\r\n        {\r\n            \"id\": 5,\r\n            \"jumlah\": 5\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"jumlah\": 3\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/pesan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pesan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "selesaikan-pesanan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"order_menu_id\": \"2\",\r\n    \"order_menu_detail\": [\r\n        {\r\n            \"id\": 5,\r\n            \"jumlah\": 5\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"jumlah\": 3\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/selesaikan-pesanan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"selesaikan-pesanan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "ice chocip",
+							"type": "text"
+						},
+						{
+							"key": "jenis_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "harga",
+							"value": "15000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/menu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"menu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add-user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Okyra Asyrafi Guchan\",\r\n    \"email\": \"Okyra19chan@gmail.com\",\r\n    \"password\" : \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Okyra Asyrafi Guchan\",\r\n    \"email\": \"Okyra19chan@gmail.com\",\r\n    \"password\" : \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reset-password Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"okyra19chan@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/reset-password",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"reset-password"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
